@@ -1,8 +1,17 @@
 aid: culdesac
 name: Culdesac
-description: 'Culdesac is a company surfaced as a portfolio company of initialized-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: real-estate. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Culdesac is a post-car real estate development company building walkable,
+  car-free neighborhoods in the United States. Its first project, Culdesac Tempe in
+  Tempe, Arizona, broke ground in 2019 and welcomed its first residents in 2021 — a
+  16-acre, roughly $140 million development of 636 apartment units plus 24,000 square
+  feet of restaurant and retail space, designed with no resident parking. Residents
+  receive transportation benefits such as free light-rail rides and discounted rideshare
+  and scooter access in place of car ownership. Culdesac operates leasing, tours, and
+  resident services through its website and HubSpot-backed portals, and intends to
+  replicate the car-free neighborhood model in other cities. It was surfaced as a portfolio
+  company of Initialized Capital and added to the API Evangelist network. Culdesac
+  publishes no public developer API; this profile captures the company identity and
+  domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/culdesac/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,30 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://culdesac.com/favicon.ico
 tags:
 - Company
 - Real Estate
+- Real Estate Development
+- Housing
+- Urban Planning
+- Car-Free
+- Mobility
+- Property Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://culdesac.com/
+- type: About
+  url: https://culdesac.com/about
+- type: SignUp
+  url: https://culdesac.com/tempe/apply/unit-selection/
+- type: TermsOfService
+  url: https://culdesac.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://culdesac.com/privacy-policy/
+- type: Support
+  url: mailto:live@culdesac.com
+- type: Twitter
+  url: https://twitter.com/culdesac
+- type: LinkedIn
+  url: https://www.linkedin.com/company/liveculdesac/
+- type: DomainSecurity
+  url: security/culdesac-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
